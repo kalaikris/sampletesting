@@ -1,0 +1,213 @@
+.add_on_btn
+{
+	display: flex;
+    justify-content: end;
+}/*div#DataTables_Table_2_filter {
+    right: 0px;
+    left: -207px !important;
+    top: -75px!important;
+}
+div#DataTables_Table_1_filter {
+    left: 0px !important;
+    
+    top: -66px !important;
+}
+div#DataTables_Table_0_filter {
+    left: -16%!important;
+    top: -48px!important;
+}
+div#DataTables_Table_3_filter {
+    position: relative;
+    top: -70px;
+}
+div#DataTables_Table_6_filter {
+    position: relative;
+    top: -60px;
+}
+div#DataTables_Table_4_filter {
+    position: relative;
+    top: -60px;
+}
+div#DataTables_Table_5_filter {
+    position: relative;
+    top: -50px;
+}*/
+/*.titel_conts
+{
+	align-items:unset;
+}*/
+.select_conter {
+    border: 1px solid #DCE3FF;
+    border-radius: 8px;
+    padding: 13px 20px;
+    width: 230px !important;
+    margin-top: 10px;
+    background-image: url(../asset/icons/calender.svg);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 16px);
+    margin-top: 0px;
+}
+.select_text
+{
+   display: flex;
+   gap: 35px;
+}
+.border_btm
+{
+    border-bottom: 1px dashed #E9E9E9;
+}
+.title 
+{
+    display: flex;
+    gap: 35px;
+    
+}
+.period_timing_start
+{
+display: flex;
+    gap: 35px;
+}
+.set_cont  h4 {
+    font: 16px/28px var(--medium-font);
+    color: #617289;
+    text-align: left;
+}
+
+.set_cont select {
+    color: #B2BBC8;
+    font: 16px/28px var(--regular-font);
+    font-weight: 400;
+    padding: 6px 10px;
+    width: 190px;
+    border-radius: 6px;
+    appearance: none;
+    background-position: calc(100% - 16px);
+    background-size: 12px;
+    background-image: url(../asset/img/down-arrow.png);
+    background-repeat: no-repeat;
+    cursor: pointer;
+    border: 1px solid #dce3ff;
+}
+
+
+.select_conter1 {
+    border: 1px solid #DCE3FF;
+    border-radius: 8px;
+    padding: 13px 20px;
+    width: 190px !important;
+    margin-top: 10px;
+    background-image: url(../asset/icons/calender.svg);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 16px);
+    margin-top: 0px;
+}
+
+
+.set_timeing p {
+    font: 16px/28px var(--medium-font);
+    color: #617289;
+    text-align: left;
+}
+.set_timeing .time_iocn {
+    position: absolute;
+    top: 187px;
+    cursor: pointer;
+    left: 63%;
+}
+.set_timeing input {
+    font: 16px/32px var(--regular-font);
+    color: #1B1F1B;
+    font-weight: 400;
+    width: 200px;
+    padding: 6px 10px;
+    border-radius: 6px;
+    border: 1px solid #DCE3FF;
+}
+
+
+.set_timeing .time_iocn2 {
+    position: absolute;
+    top: 185px;
+    left: 83%;
+}
+
+.years_cont
+{
+    display: flex;
+    gap: 30px;
+}
+
+.set_timeing .time_iocn3 {
+    position: absolute;
+    top: 195px;
+    left: 74%;
+}
+.set_timeing .time_iocn4 {
+    position: absolute;
+    top: 196px;
+    cursor: pointer;
+    left: 43%;
+}
+.header_sec
+{
+display: flex;
+ gap: 30px;align-items:
+  center; justify-content: 
+  space-between;
+  width: calc(100% - 220px);
+}
+.header_sec1
+{
+    display: flex;
+ gap: 30px;
+  justify-content: space-between;
+  width: calc(100% - 0px);
+}
+.left_arrows {
+    padding-top: 15px;
+}
+
+.set-time-table h4 {
+    font: 24px/36px var(--bold-font);
+    font-weight: 300;
+    color: #1B1F1B;
+    line-height: 2;
+}
+.set-time-table img {
+    object-fit: contain;
+    width: 27px;
+    margin-top: 0px;
+}
+.Period_sub_status h4 {
+    color: #1b1f1b;
+    font: 16px/28px var(--medium-font);
+    font-weight: 700;
+}
+.Period_sub_status {
+    text-align: left;
+    padding-bottom: 20px;
+}
+.Period_sub_status p {
+    color: #617389;
+    font: 16px/28px var(--regular-font);
+    font-weight: 500;
+}
+
+@media (max-width: 1473px)
+{
+  div#DataTables_Table_0_filter
+  {
+    left: -20%!important;
+  }
+/*  .header_sec
+  {
+    width: 56%;
+  }*/
+/*  .header_sec1
+  {
+    width: 75%;
+  }*/
+}
+
+
+

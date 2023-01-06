@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Exams</title>
+    <g id="Exams" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="6805039_exam_grade_school_icon" transform="translate(5.000000, 3.000000)" stroke="#FFFFFF" stroke-width="1.8">
+            <path d="M14,3.85714286 L10.8181818,3.85714286 C10.1181818,3.85714286 9.54545455,3.27857143 9.54545455,2.57142857 L9.54545455,0 L14,3.85714286 L14,16.7142857 C14,17.4214286 13.4272727,18 12.7272727,18 L1.27272727,18 C0.572727273,18 0,17.4214286 0,16.7142857 L0,1.28571429 C0,0.578571429 0.572727273,0 1.27272727,0 L7,0" id="Path"></path>
+            <polyline id="Path" points="2.54545455 14.1428571 4.77272727 7.71428571 7 14.1428571"></polyline>
+            <line x1="2.99090909" y1="12.8571429" x2="6.55454545" y2="12.8571429" id="Path"></line>
+            <line x1="10.1818182" y1="7.71428571" x2="10.1818182" y2="11.5714286" id="Path"></line>
+            <line x1="8.27272727" y1="9.64285714" x2="12.0909091" y2="9.64285714" id="Path"></line>
+        </g>
+    </g>
+</svg>

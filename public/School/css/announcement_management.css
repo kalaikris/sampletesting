@@ -1,0 +1,55 @@
+/*div#DataTables_Table_0_filter {
+    position: relative;
+    left: 0px !important;
+   
+    top: -3px !important;
+}*/
+.dataTables_wrapper {
+    top: 30px;
+}
+.main_table table.dataTable tbody tr td, .main_table table.dataTable.display>tbody>tr.odd>.sorting_1, .main_table table.dataTable.display>tbody>tr.even>.sorting_1
+{
+    white-space:unset !important;
+    line-height: 1.5;
+/*    font-size: 12px;*/
+
+}
+.modal.show .modal-dialog {
+    transform: translate(0px, 0%);
+}
+.in_text
+{
+    width: 100%;
+    justify-content: center;
+}
+
+.set_years select
+{
+    width: 330px;
+}
+.text_box, .select2-container--default .select2-selection--multiple
+{
+    width: 330px;
+    height: 42px;
+}
+.satart-cont
+{
+    padding: unset;
+}
+textarea {
+    font: 16px/26px var(--regular-font);
+    width: 678px;
+    height: 400px;
+    border-radius: 6px;
+    padding: 16px;
+    color: #242D39;
+    border: 1px solid #DCE3FF;
+}
+
+@media (min-width: 576px)
+{
+    .model_title .modal-dialog {
+    max-width: 1056px;
+    margin: 1.75rem auto;
+}
+}

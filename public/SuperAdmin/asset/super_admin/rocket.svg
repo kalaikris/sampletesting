@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="395px" height="232px" viewBox="0 0 395 232" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Line and rocket</title>
+    <g id="Line-and-rocket" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-2" transform="translate(63.000000, 88.279438) rotate(25.000000) translate(-63.000000, -88.279438) translate(-227.884535, -125.054624)">
+            <g id="Group-3" transform="translate(290.884535, 213.334061) rotate(-4.000000) translate(-290.884535, -213.334061) translate(12.884535, 18.918714)">
+                <path d="M0,349.923175 C97.1787427,402.467932 186.977331,401.791266 269.395764,347.893175 C393.023415,267.046039 316.480134,170.135094 360.643903,104.139913 C384.507271,68.4801992 440.221801,58.6646263 483.629105,45.0843664 C512.567308,36.0308598 531.856385,26.0942811 541.496338,15.2746302" id="Path-2" stroke="#FFFFFF" opacity="0.403241839" stroke-dasharray="5"></path>
+                <g id="1646938_send_plane_icon" transform="translate(538.000000, 0.000000)" fill="#FFFFFF" fill-opacity="0.4" fill-rule="nonzero">
+                    <polygon id="Path" points="0 9 5.61 11.992 14 5 6 14.455 6 18 9.164 13.887 15 17 18 0"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Upload books</title>
+    <g id="Upload-books" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <g id="9042325_bookmark_book_icon" transform="translate(3.000000, 2.000000)" stroke="#FFFFFF" stroke-width="2">
+            <path d="M0,16 L0,2 C0,0.89543 0.89543,0 2,0 L15.4,0 C15.7314,0 16,0.26863 16,0.6 L16,13.7143" id="Path"></path>
+            <polyline id="Path" stroke-linejoin="round" points="4 0 4 8 6.5 6.4 9 8 9 0"></polyline>
+            <line x1="2" y1="14" x2="16" y2="14" id="Path"></line>
+            <line x1="2" y1="18" x2="16" y2="18" id="Path"></line>
+            <path d="M2,18 C0.89543,18 0,17.1046 0,16 C0,14.8954 0.89543,14 2,14" id="Path" stroke-linejoin="round"></path>
+        </g>
+    </g>
+</svg>

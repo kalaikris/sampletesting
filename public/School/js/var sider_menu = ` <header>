@@ -1,0 +1,103 @@
+var sider_menu = ` <header>
+                <div class="image-text">
+                    <span class="image">
+                        <!--<img src="logo.png" alt="">-->
+                    </span>
+                    <div class="text logo-text">
+                        <span class="name">HEY</span>
+                        <span class="profession">CAMPUS.AI</span>
+                    </div>
+                </div>
+                <i class='bx bx-chevron-right toggle'></i>
+            </header>
+            <div class="menu-bar">
+                <div class="menu">
+                    <ul class="menu-links">
+                        <li class="nav-link">
+                            <a href="#">
+                                <img class=" icon" src="asset/left-menu/My Dashboard.svg">
+                                <span class="text nav-text"> My Dashboard</span>
+                            </a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="school_configuration.html">
+                                <img class=" icon" src="asset/left-menu/School Configuration.svg">
+                                <span class="text nav-text">School Configuration</span>
+                            </a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="#">
+                                <img class=" icon" src="asset/left-menu/Class Management.svg">
+                                <span class="text nav-text">Class Management</span>
+                            </a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="#">
+                                <img class=" icon" src="asset/left-menu/Student Management.svg">
+                                <span class="text nav-text">Student Management</span>
+                            </a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="#">
+                                <img class=" icon" src="asset/left-menu/Teacher Management.svg">
+                                <span class="text nav-text">Teacher Management</span>
+                            </a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="#">
+                                <img class=" icon" src="asset/left-menu/Parent Management.svg">
+                                <span class="text nav-text">Parent Management</span>
+                            </a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="#">
+                                <img class=" icon" src="asset/left-menu/Admission Management.svg">
+                                <span class="text nav-text">Admission Management</span>
+                            </a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="#">
+                                <img class=" icon" src="asset/left-menu/User Management.svg">
+                                <span class="text nav-text">User Management</span>
+                            </a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="#">
+                                <img class=" icon" src="asset/left-menu/Content Management.svg">
+                                <span class="text nav-text">Content Management</span>
+                            </a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="#">
+                                <img class=" icon" src="asset/left-menu/Exam Management.svg">
+                                <span class="text nav-text">Exam Management</span>
+                            </a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="#">
+                                <img class=" icon" src="asset/left-menu/Fee Management.svg">
+                                <span class="text nav-text">Fee Management</span>
+                            </a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="#">
+                                <img class=" icon" src="asset/left-menu/Report Management.svg">
+                                <span class="text nav-text">Report Management</span>
+                            </a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="#">
+                                <img class=" icon" src="asset/left-menu/Announcement Management.svg">
+                                <span class="text nav-text">Announcement Management</span>
+                            </a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="#">
+                                <img class=" icon" src="asset/left-menu/Legal Management.svg">
+                                <span class="text nav-text">Legal Management</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <img src="asset/bg.svg" class="bottom_wave">`;

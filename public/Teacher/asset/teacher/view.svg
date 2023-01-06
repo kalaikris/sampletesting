@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="12px" viewBox="0 0 18 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>View icon</title>
+    <g id="View-icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="6646077_essentials_eye_ui_view_icon" transform="translate(1.000000, 1.000000)" stroke="#7A60E0" stroke-width="1.6">
+            <path d="M16,5 C16,5 12.4307692,10 8,10 C3.56923077,10 0,5 0,5 C0,5 3.56923077,0 8,0 C12.4307692,0 16,5 16,5 Z" id="Path"></path>
+            <ellipse id="Oval" cx="8" cy="5" rx="2.46153846" ry="2.5"></ellipse>
+        </g>
+    </g>
+</svg>

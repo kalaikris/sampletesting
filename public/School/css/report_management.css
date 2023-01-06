@@ -1,0 +1,64 @@
+.dataTables_wrapper {
+    top: 9px;
+}
+
+/*div#DataTables_Table_0_filter {
+    position: relative;
+    left: 0px !important;
+ 
+    top: -7px !important;
+}*/
+.report
+{
+    padding-bottom: 20px;
+    display: flex;
+    justify-content:space-between;
+}
+
+.select_addemics_con
+{
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+.titel_cont
+{
+    padding-top: 30px;
+}
+.pending {
+    color: #756845;
+    background: #faf0d6;
+}
+.status_btns {
+    border: none;
+    border-radius: 4px;
+    width: 100px;
+    padding: 6px 10px;
+    font: 12px/18px var( --bold-font);
+}
+.Paid
+{
+    color: #5daa38;
+    background: #e1fad6;
+}
+.rejected {
+    color: #935555;
+    background: #fad6d6;
+}
+.choos_cont
+{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.filter
+{
+border: none;
+    padding: 14px 18px;
+    border-radius: 8px;
+    background: #7a61e0;
+}
+.filter img
+{
+    width: 20px;
+}

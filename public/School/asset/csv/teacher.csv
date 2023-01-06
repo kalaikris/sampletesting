@@ -1,0 +1,5 @@
+S.No,Teacher Id,Name,Email,Country Code,Mobile Number,Address,Gender,Dob,Blood group,Nationality,Religion,Official address,Subjects,Subjects id
+1,TR0001,John,john@gmail.com,91,9999955555,John Address,Male,1-1-90,O+,Indian,Hindu,Address,"Tamil,English,Maths","SUB001,SUB002,SUB003"
+2,TR0002,Nancy,nancy@gamil.com,91,9999955556,Nancy Address,Female,1-1-70,O+,Indian,Christian,Address,English,SUB002
+3,TR0003,Kumar,kumar@gmail.com,91,8797687856,Kumar address,Male,1-2-85,B+,Indian,Hindu,Address,Science,SUB004
+4,TR0004,Vinoth,vinoth@gmail.co,91,9536436436,Vinoth Address,Male,24-4-94,O+,Indian,Hindu,Address,Social Science,SUB005

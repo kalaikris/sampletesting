@@ -1,0 +1,3 @@
+S.No,Class id,Standard,Section,Capacity,Class teacher,Class teacher id,Subjects,Subjects id,Teachers,Teacher id,Academic year
+1,CL0001,Class 6,A,23,Kumar,TR0003,"Tamil,English,Maths","SUB001,SUB002,SUB003","John,Nancy,Kumar","TR0001,TR0002,TR0003",2021-2022
+2,CL0002,Class 6,B,25,Vinoth,TR0004,"Tamil,English,Maths","SUB001,SUB002,SUB005","John,Nancy,Vinoth","TR0001,TR0002,TR0004",2021-2022

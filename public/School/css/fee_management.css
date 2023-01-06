@@ -1,0 +1,226 @@
+.teachers_status
+{
+	width: 34%;
+}
+
+.onboarded {
+    color: #5DAA38;
+    background: #E1FAD6;
+}
+.status_btns {
+    border: none;
+    border-radius: 4px;
+    width: 100px;
+    padding: 6px 10px;
+    font: 12px/18px var( --bold-font);
+    /* font-weight: 700; */
+}
+.in_text
+{
+	display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+
+.set_years input
+{
+	width: 380px;
+}
+
+
+.modal.show .modal-dialog {
+    transform: translate(0px, 0%);
+}
+.select_conter {
+    border: 1px solid #DCE3FF;
+    border-radius: 8px;
+    padding: 13px 20px;
+    width: 230px;
+    margin-top: 10px;
+    background-image: url(../asset/icons/calender.svg);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 16px);
+    margin-top: 0px;
+}
+[type="radio"]:checked,
+[type="radio"]:not(:checked) {
+    position: absolute;
+    left: -9999px;
+}
+[type="radio"]:checked + label,
+[type="radio"]:not(:checked) + label
+{
+    position: relative;
+    padding-left: 28px;
+    cursor: pointer;
+    line-height: 20px;
+    display: inline-block;
+    color: #1B1F1B;
+    font: 16px/28px var(--regular-font);
+}
+[type="radio"]:checked + label:before,
+[type="radio"]:not(:checked) + label:before {
+   content: '';
+    position: absolute;
+    left: 0;
+    top: 4px;
+    width: 18px;
+    height: 18px;
+    background: #fff;
+    border: 1px solid #e8e8e8;
+    border-radius: 100%;
+    background: #fff;
+}
+[type="radio"]:checked + label:after,
+[type="radio"]:not(:checked) + label:after {
+    content: '';
+    width: 22px;
+    height: 22px;
+    background: #fff;
+    border: 6px solid #7A60E0;
+    position: absolute;
+    top: 3px;
+    left: 0px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+[type="radio"]:not(:checked) + label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+[type="radio"]:checked + label:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+
+
+
+
+
+.set_years {
+    padding-bottom: 20px;
+}
+.select_the_cont
+{
+	display: flex;
+    gap: 20px;
+    width: 380px;
+    padding-top: 10px;
+}
+.bor_bottm  
+{
+border-bottom: 1px dashed #E9E9E9;
+}
+
+.satart-cont
+{
+   padding: unset;
+   width: 79%;
+}
+
+.add_slot_text {
+    width: 79%;
+    margin: auto;
+    padding: 0px;
+    cursor: pointer;
+}
+
+
+.add_content
+{
+	padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+
+.add_content h2
+{
+	font: 16px/28px var(--bold-font);
+	color: #1B1F1B;
+	width: 79%;
+	text-align: left;
+	margin: 0 auto;
+	padding-bottom: 20px;
+}
+
+.bg_cont
+{
+	background: #F6F6F6;
+    border-radius: 4px;
+    width: 79%;
+    padding: 12px 20px;
+    text-align: left;
+    margin: 0 auto;
+}
+
+.bg_cont p
+{
+	font:14px/28px var(--regular-font);
+	color: #617289;
+}
+
+.actem_texts
+{
+	display: flex;
+	gap: 30px;
+}
+.titel_conts
+{
+	align-items: unset;
+}
+.bg_cont h4
+{
+	font:14px/28px var(--regular-font);
+	color: #1B1F1B;
+}
+.text_box, .select2-container--default .select2-selection--multiple
+{
+width: 380px !important;
+}
+/*div#DataTables_Table_0_filter {
+    left: 0% !important;
+    
+    top: -46px !important;
+}
+div#DataTables_Table_2_filter {
+    right: 0px;
+    left: 0px !important;
+    top: -44px!important;
+}
+.dataTables_wrapper .dataTables_filter
+{
+	right: 0px;
+    left: 0px !important;
+    top: -44px!important;
+}
+div#DataTables_Table_1_filter {
+    left: 0px !important;
+    
+    top: -41px !important;
+}*/
+
+@media only screen and (max-width: 1400px)
+{
+.teachers_status {
+    width: 44%;
+}
+}
+@media only screen and (max-width: 860px)
+{
+	.teachers_status {
+    width: 76%;
+}
+}
+@media (min-width: 576px)
+{
+	.model_title .modal-dialog {
+    max-width: 1075px;
+    margin: 1.75rem auto;
+}
+}

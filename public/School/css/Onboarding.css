@@ -1,0 +1,256 @@
+
+/* === variables* === */
+:root {
+  /*colors*/
+  --primary-color: #07b4d3;
+  --secondary-color: #262626;
+  --tertiary-color: #3b3b3b;
+  --text-color-light: #84bc42;
+  --dark-color: #000;
+  --light-color: #fff;
+  /*font*/
+  --regular-font: "Helvetica_Neue_regular";
+  --light-font: "Helvetica_Neue_light";
+  --medium-font: "Helvetica_Neue_medium";
+  --semibold-font: "Helvetica_Neue_thin";
+  --bold-font: "Helvetica_Neue_bold";
+
+  /*size*/
+  --primary-btn-size: 120px;
+  --primary-btn-padding: 8px 15px;
+}
+
+::placeholder
+{
+    color: #1B1F1B;
+    font-family: var(--regular-font);
+    font-weight: 400;
+}
+
+
+.profile_img {
+    width: 150px;
+    height: 150px;
+    background: #F8F9FD;
+    border-radius: 190px;
+    border: 1px solid #DBE3FF;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 30px;
+}
+.file-upload {
+    display: none;
+}
+.profile_img label {
+    color: #A1A8C1;
+    font-size: 14px;
+    font-family:var(--regular-font) ;
+    margin: 0px;
+    padding-top: 6px;
+    cursor: pointer;
+}
+.upload_details h4
+{
+   font: 24px/32px var(--bold-font);
+   color: #1B1F1B;
+   font-weight: 400;
+}
+.upload_details p
+{
+  color: #6F829F;
+  font: 16px/32px var(--regular-font);
+  font-weight: 400;
+}
+
+.Continue
+{
+    padding-top: 40px;
+}
+.down
+{
+    padding-top: 24px;
+}
+.download-btn
+{
+    border-radius: 4px;
+    border: 1px solid #7f5ee8;
+    color: #7f5ee8;
+    padding: 13px 65px;
+    background: transparent;
+}
+.download-btn:hover
+{
+    background: #7f5ee8;
+    color: #fff;
+}
+.Continue-btn
+{
+    padding: 20px 20px;
+    border-radius: 4px;
+    background: #7f5ee8;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    width: 300px;
+
+}
+.upload_filed {
+    cursor: pointer;
+    width: 30%;
+    margin: 0 auto;
+    padding: 60px 10px;
+    background: #F8F9FD;
+    border: 2px dashed #DBE3FF;
+    text-align: center;
+    border-radius: 12px;
+    margin-top: 10px;
+}
+.csvfile {
+    width: 50px;
+}
+.upload_filed p {
+    font-size: 14px;
+    line-height: 20px;
+    color: #B2B2B2;
+    cursor: pointer;
+}
+.file_cont
+{
+    padding-top: 30px;
+}
+
+.csv_title
+{
+display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
+.csv_title p
+{
+  font: 14px/20px var(--medium-font);
+  color: #617289;
+  font-weight: 500;
+}
+.csv_title input
+{
+ display: none;
+}
+.csv_title label
+{
+  font: 14px/20px var(--medium-font);
+  color: #7F5EE8;
+  font-weight: 500;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.prev_text
+{
+    font: 14px/20px var(--medium-font);
+  color: #7F5EE8 !important;
+  font-weight: 500;
+  text-decoration: underline;
+}
+.file_name 
+{
+    font: 14px/22 var(--regular-font);
+    color: #B2B2B2 !important;
+    cursor: pointer;
+}
+.file_type
+{
+    padding-top: 10px;
+    align-items: flex-end;
+}
+.sub_text h1 {
+    color: #fff;
+    font: 44px/55px var(--bold-font);
+    margin: 20px 0;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+.community_list li {
+    padding: 10px 0px;
+/*    border-bottom: 1px solid #00000024;*/
+}
+.community_list li a {
+    font-size: 12px;
+    color: #242D39;
+    font-weight: 400;
+}
+
+.successfully_text h6 {
+    font: 32px/28px var(--bold-font);
+    color: #1B1F1B;
+    font-weight: 500;
+    padding-top: 20px;
+}
+.successfully_text p {
+    font: 16px/24px var(--regular-font);
+    color: #1B1F1B;
+    font-weight: 400;
+    line-height: 1.4;
+    padding-top: 20px;
+}
+.Credentials_btn {
+    width: 340px;
+    border: none;
+    padding: 22px 10px;
+    border-radius: 6px;
+    background: #7A60E0;
+    color: #fff;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.successfully_text
+{
+    text-align: center;
+}
+.modal-header
+{
+    border: none;
+}
+@media only screen and (max-width:1110px)
+{
+     .upload_filed
+     {
+        width: 62%;
+     }
+     .csv_title
+     {
+       width: 61%;
+     }
+}
+@media only screen and (max-width:1420px)
+{
+   .sub_text h1
+   {
+    font: 38px/55px var(--bold-font);
+    font-weight: 700;
+   }
+}
+@media only screen and (max-width:1370px)
+{
+   .sub_text h1
+   {
+    font: 40px/55px var(--bold-font);
+    font-weight: 700;
+   }
+}
+@media only screen and (max-width:720px) {
+    .side_menu{
+        display:unset!important;
+    }
+}
+@media (min-width: 576px)
+{
+    .modal-dialog{
+    max-width:900px;
+    margin: 1.75rem auto;
+}
+}
+

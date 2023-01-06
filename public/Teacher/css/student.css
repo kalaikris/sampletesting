@@ -1,0 +1,230 @@
+.student_det{
+border-radius: 10px;
+border: 1px solid #EEEDED;
+background-color: #fff;
+padding: 10px 15px;
+}
+.mark_detail{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+.profile{
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+}
+.student_info{
+    width: 70%;
+}
+.student_info h2 {
+    font: 22px/32px var(--bold-font);
+    color: #1B1F1B;
+}
+.stu_info{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.stu_info h2{
+    font: 16px/28px var(--regular-font);
+    color: #242D39;
+    width: 170px;
+}
+.stu_info p{
+    font: 16px/28px var(--medium-font);
+    color: #242D39;
+}
+.parent_addres{
+    border-radius: 8px;
+    opacity: 1;
+    background-color: #F8F9FD;
+    margin: 20px 0;
+    padding: 10px;
+}
+.parent_detail{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.parent_addres h2{
+    font: 21px/32px var(--bold-font);
+    color: #1B1F1B;
+}
+.seperate {
+    width: 50%;
+}
+.sept{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.sept h2{
+    font: 16px/28px var(--regular-font);
+    color: #242D39;
+    width: 230px;
+}
+.sept p{
+    font: 16px/28px var(--medium-font);
+    color: #242D39;
+}
+.uplaod_field{
+    display: flex;
+}
+
+.detail_pdf{
+    border-radius: 8px;
+    opacity: 1;
+    background-color: #F8F9FD;
+    margin: 20px 0;
+    padding: 10px;
+}
+.detail_pdf h2{
+    font: 21px/32px var(--bold-font);
+    color: #1B1F1B;
+}
+#upload_aadhar{
+    display: none;
+}
+.uploadfiles{
+     width: 170px;
+    height: 150px;
+    object-fit: contain;
+}
+.upload_img {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.upload_img a{
+    padding: 0;
+    margin: 10px 0;
+    color: #7A60E0;
+}
+.inv_from h2 a{
+    font: 32px/42px var(--bold-font);
+    color: #1B1F1B;
+}
+.backbtn{
+    width: 30px;
+    height: 25px;
+    margin-right: 5px;
+    object-fit: contain;
+    cursor: pointer;
+}
+.inv_from p{
+    font: 18px/28px var(--regular-font);
+    color: #2C2C2C; 
+    margin-left: 40px;
+   
+}
+.days_list{
+   display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    margin: 20px 0;
+}
+.days_present {
+     background: linear-gradient(90deg, #EA66FF 0%, #FFD193 100%);
+    border-radius: 21px;
+    width: 220px;
+    height: 120px;
+    color: #fff;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+.days_absent{
+    background: linear-gradient(90deg, #6ED6FE 0%, #93FFAF 100%);
+    border-radius: 21px;
+    width: 220px;
+    height: 120px;
+    color: #fff;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+.days_percentage{
+    background: linear-gradient(90deg, #946EFE 0%, #FF93F1 100%);
+    border-radius: 21px;
+    width: 220px;
+    height: 120px;
+    color: #fff;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+.precentage {
+    background: linear-gradient(90deg, #FF7777 0%, #B776EA 100%);
+    border-radius: 21px;
+    width: 220px;
+    height: 120px;
+    color: #fff;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+
+/* .varities .days_list p{
+    color: #F9FAFC;
+    font: 16px/24px var(--regular-font);
+} */
+.days_list h2{
+    color: #F9FAFC;
+    font: 36px/42px var(--bold-font);
+}
+.days_list p{
+    color: #F9FAFC;
+    font: 16px/24px var(--bold-font);
+}
+.selecttext{
+    width: 200px;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font: 16px/22px var(--regular-font);
+}
+.searchtext {
+    width: 200px;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font: 16px/22px var(--regular-font);
+    color: #242D39;
+}
+
+.pendingbtn{
+    opacity: 1;
+    color: #83801A;
+    font: 16px/22px var(--medium-font);
+}
+.approvbtn{
+opacity: 1;
+color: #279F84;
+font: 16px/22px var(--medium-font);
+}
+.mathclass{
+    margin-left: 35px;
+}
+.ml-35{
+    margin-left: 35px;
+}
+.nav-pills{
+    margin-bottom: 20px;
+}
+
+
+

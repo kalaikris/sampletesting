@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hey Campus.AI</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/common.css?v=4123">
+    <link rel="stylesheet" href="css/login.css?v=8765">
+</head>
+<style>
+    
+
+</style>
+
+<body>
+
+    <section id=""> 
+        <div class="mani">
+            <div class="side_menu center_align">
+                <div class="main_content">
+                    <div class="sub_text">
+                        <h1>Time Saving, <br/>Simple-To-Use</h1>
+                        <p>And performance management<br/> platform for your schools !</p>
+                    </div>
+                </div>
+                <img src="asset/rocket.svg" class="rocket">
+                <img src="asset/bg.svg" class="bottom_wave">
+            </div>
+            <div class="mani_menu">
+            <header id="main-dash-header" class="dash-header">
+              <div class="back-drop hidden"></div>
+              <div class="nav-menu hidden">
+                <ul class="nav-links">
+                  <li id="profile">
+                    <div class="dropdown-logout">
+                      <a class="logout-toggle" href="#" role="button" id="logoutdropdownMenuLink" aria-expanded="false">
+                        <span id="profile-pic">
+                          <img src="asset/profile.png" alt="">
+                        </span>
+                          <span class="profile-name">
+                            <p>Welcome</p>
+                            <h2>Jerry Higgins</h2>
+                          </span>
+                      </a>
+                      <div class="dropdown-menu">
+                        <a class="dropdown-item" href="logout.php">Logout</a>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </header>
+                <div class="personal-content">
+                    <div class="main_logo">
+                        <img src="asset/logo.png" alt="logo" >
+                         <p>To access your school management, enter your user-id and password.</p>
+                    </div>
+                    <form class="box_titles">
+                        <div class="contact_title">
+                            <h2>Enter OTP</h2>
+                            <p>We have sent an OTP to your entered email address <a href="#"  class="select_tag">admin@hccampus.com</a></p>
+                        </div>
+                        <div class="right_contant">
+                            <div class="form-group">
+                                <a class="select_tag underline" href="">Change Email Address</a>
+                            </div>
+                            <div class="form-group verification-code">
+                                 <div class="verification-code--inputs">
+                                <input type="text" maxlength="1" />
+                                <input type="text" maxlength="1" />
+                                <input type="text" maxlength="1" />
+                                <input type="text" maxlength="1" />
+                                <input type="text" maxlength="1" />
+                                <input type="text" maxlength="1" />
+                              </div>
+                            </div>
+                            <div class="form-group">
+                                <a class="select_tag" href=""><span><img src="asset/clock.png" alt="clock" class="clockimg"></span>30 sec</a>
+<!--                                Resend otp-->
+<!--                                <a class="select_tag" href="">Resend OTP</a>-->
+                            </div>
+                        </div>
+                    </form>
+                        <button class="login_btn" onclick="pwd_page()">Verify</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src='js/jquery.min.js'></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src='js/fontawesome.js'></script>
+    <script>
+
+      function pwd_page() {
+          window.location.href="password.html";
+      }
+          
+          
+          
+          //Code Verification
+  var verificationCode = [];
+  $(".verification-code input[type=text]").keyup(function (e) {
+    
+    // Get Input for Hidden Field
+    $(".verification-code input[type=text]").each(function (i) {
+      verificationCode[i] = $(".verification-code input[type=text]")[i].value; 
+      $('#verificationCode').val(Number(verificationCode.join('')));
+      //console.log( $('#verificationCode').val() );
+    });
+  
+    //console.log(event.key, event.which);
+  
+    if ($(this).val() > 0) {
+      if (event.key == 1 || event.key == 2 || event.key == 3 || event.key == 4 || event.key == 5 || event.key == 6 || event.key == 7 || event.key == 8 || event.key == 9 || event.key == 0) {
+        $(this).next().focus();
+      }
+    }else {
+      if(event.key == 'Backspace'){
+          $(this).prev().focus();
+      }
+    }
+  
+  }); // keyup
+  
+  $('.verification-code input').on("paste",function(event,pastedValue){
+    console.log(event)
+    $('#txt').val($content)
+    console.log($content)
+    //console.log(values)
+  });
+  // http://jsfiddle.net/5bNx4/#run
+  $editor.on('paste, keydown', function() {
+  var $self = $(this);            
+                setTimeout(function(){ 
+                  var $content = $self.html();             
+                  $clipboard.val($content);
+              },100);
+       });
+      </script>
+</body>
+
+</html>

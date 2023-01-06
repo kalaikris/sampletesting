@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="41px" height="41px" viewBox="0 0 41 41" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Total Teachers</title>
+    <g id="Total-Teachers" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="5038505_business_presentation_presenter_presenting_training_icon" transform="translate(10.000000, 10.000000)" stroke="#FFFFFF" stroke-width="1.7142857">
+            <path d="M10.4761905,9.26829268 L12.8571429,9.26829268 C13.6461211,9.26829268 14.2857143,8.61309963 14.2857143,7.80487805 L14.2857143,7.80487805 C14.2857143,6.99665646 13.6461211,6.34146341 12.8571429,6.34146341 L2.85714295,6.34146341 C1.27918653,6.34146341 0,7.65184951 0,9.26829268 L0,11.2195122 C-0.000277196999,12.2476789 0.526115558,13.200593 1.38666677,13.7297561" id="Path"></path>
+            <path d="M5.71428579,14.1463415 L5.71428579,20 L7.14285721,20 C7.93183542,20 8.57142863,19.344807 8.57142863,18.5365854 L8.57142863,9.26829268" id="Path"></path>
+            <path d="M5.71428579,20 L4.28571437,20 C3.49673616,20 2.85714295,19.344807 2.85714295,18.5365854 L2.85714295,9.26829268" id="Path"></path>
+            <ellipse id="Oval" cx="5.71428579" cy="2.43902439" rx="2.38095237" ry="2.43902439"></ellipse>
+            <polyline id="Path" points="10.0000001 1.46341463 20 1.46341463 20 13.1707317 10.4761905 13.1707317"></polyline>
+        </g>
+    </g>
+</svg>

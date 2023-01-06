@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="34px" height="34px" viewBox="0 0 34 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>books purple</title>
+    <g id="books-purple" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <g id="9042325_bookmark_book_icon" transform="translate(10.964719, 9.714286)" stroke="#594EBD" stroke-width="1.5">
+            <path d="M0,12.6023166 L0,1.57528958 C0,0.705280772 0.681815153,0 1.52287762,0 L11.7261577,0 C11.9784985,0 12.1830209,0.211585019 12.1830209,0.472586873 L12.1830209,10.8019969" id="Path"></path>
+            <polyline id="Path" stroke-linejoin="round" points="3.04575524 0 3.04575524 6.3011583 4.94935226 5.04092664 6.85294928 6.3011583 6.85294928 0"></polyline>
+            <line x1="1.52287762" y1="11.027027" x2="12.1830209" y2="11.027027" id="Path"></line>
+            <line x1="1.52287762" y1="14.1776062" x2="12.1830209" y2="14.1776062" id="Path"></line>
+            <path d="M1.52287762,14.1776062 C0.681815153,14.1776062 0,13.472349 0,12.6023166 C0,11.7322842 0.681815153,11.027027 1.52287762,11.027027" id="Path" stroke-linejoin="round"></path>
+        </g>
+    </g>
+</svg>

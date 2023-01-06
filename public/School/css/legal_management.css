@@ -1,0 +1,56 @@
+/*div#DataTables_Table_0_filter {
+    left: 0% !important;
+
+    top: 0px !important;
+}*/
+.titel_conts
+{
+    align-items: unset;
+}
+
+
+.sub_text
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sub_text h6
+{
+  color: #1B1F1B;
+  font: 24px/28px var(--bold-font);
+}
+.sub_text p
+{
+    color: #6F829F;
+    font: 16px/26px var(--regular-font);
+}
+.Conditions_sub_text p
+{
+    color:#242D39;
+    font: 16px/26px var(--regular-font);
+    line-height: 2;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+textarea
+{
+    font: 16px/26px var(--regular-font);
+    width: 810px;
+    height: 400px;
+    color: #242D39;
+    border: 1px solid #DCE3FF;
+}
+
+.modal.show .modal-dialog {
+    transform: translate(0px, 0%);
+}
+
+
+@media (min-width: 576px)
+{
+  .model_title .modal-dialog {
+    max-width: 1056px;
+    margin: 1.75rem auto;
+}    
+}

@@ -1,0 +1,287 @@
+    .chat-addbtn {
+        background-color: #7A60E0;
+        border: 1px solid #7A60E0;
+        border-radius: 8px;
+        color: #fff;
+        font: 15px/21px var(--bold-font);
+        padding: 10px 15px;
+    }
+    .chat-addbtn span img {
+        width: 30px;
+        height: 20px;
+        object-fit: contain;
+    }
+    .demo {
+    padding: 30px;
+    min-height: 280px;
+    }
+    .tab-content {
+        padding: 15px 0;
+    }
+/* own Edited tabs */
+    .nav-tabs {
+        border-bottom: none;
+    }
+    .nav-tabs>li>a {
+        padding: 10px 8px!important;
+        position: relative;
+        display: block;
+        font:16px/21px var(--regular-font);
+        color: #000;
+        border-radius: 8px;
+        margin: 0 10px 0 0;
+        width: 80px; 
+        opacity: 1;
+        text-align: center;
+        background-color: rgba(236,236,236, 1);
+    }
+
+    .nav-tabs>li.active>a {
+        background-color: rgba(248,71,123, 1);
+        color: #fff;
+    }
+
+    .nav-tabs>li>a:hover {
+        line-height: 20px!important;
+        border: none;
+    }
+    .content-view-video img{
+        background-color: #DEFFE2;
+        border-radius: 50%;
+    }
+    .content-view-books img{
+        background-color: #E1DEFF;
+        border-radius: 50%;
+    }
+    .content-view-question img{
+        background-color: #FFF4DE;
+        border-radius: 50%;
+    }
+
+    .side-uploadview{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    }
+
+.count{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.content-view{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 500px;
+}
+.video-sets{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.video-tag{
+    width: 300px;
+    height: auto;
+    padding: 6px;
+    margin-bottom: 15px; 
+    margin-right: 15px;
+    border-radius: 7px;
+    border: 0.8px solid #97979733;
+    opacity: 1;
+    background-color: #ffffff;
+}
+.physics-img {
+    width: 100%;
+    height: 160px;
+    object-fit: contain;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+.video-tag-box{
+    display: block;
+    position: relative;
+}
+.video-tag-clock {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    color: #fff;
+    font: 11px/14px var(--bold-font);
+    padding: 3px 8px;
+    border-radius: 3px;
+    opacity: 1;
+    background-color: #01020398;
+}
+.video-tag-play {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.video-tag-title{
+    padding: 10px;
+}
+.video-tag-title h3 {
+    color: #242d39;
+    font: 15px/21px var(--medium-font);
+    text-align: left;
+}
+.video-tag-title p {
+    font: 13px/18px var(--regular-font);
+    opacity: 1;
+    color: #617289;
+}
+.same-tabs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.deletebtn img {
+    width: 20px;
+    height: 16px;
+}
+.bookimg {
+    width: 100px;
+    height: 60px;
+    object-fit: contain;
+    border-radius: 4px;
+}
+.tabpanel-data{
+    position: relative;
+}
+
+/* NAV TABS QUESTION PAPPER */
+.tabbable-responsive {
+    display: block;
+    min-width: 100%;
+    overflow-x: auto;
+    margin: 0px -21px -13px -21px;
+  }
+  .tabbable {
+    min-width: 100%;
+  }
+  .tabbable .nav-tabs {
+    white-space: nowrap;
+    display: inline-block;
+    min-width: 100%;
+    padding: 0px 21px;
+  }
+  .tabbable .nav-tabs .nav-item {
+    display: inline-block;
+  }
+  .tabbable .nav-tabs .nav-item .nav-link {
+    display: inline-block;
+    background: transparent;
+    border: none;
+    width: 140px;
+    opacity: 1;
+    color: #989898d9;
+    padding: 10px 0px !important;
+    font: 16px/21px var(--medium-font);
+  }
+  .tabbable .nav-tabs .nav-item.active .nav-link{
+    border-radius: 0;
+    border-bottom: 4px solid #F9A661 !important;
+    color: #000;
+  }
+  .card {
+    box-shadow: none;
+    border: none;
+}
+  .text-dark {
+    text-decoration: none !important;
+  }
+.card-header {
+    background: #fff;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+    @media (max-width: 767px) {
+    .nav-tabs.nav-tabs-dropdown,
+    .nav-tabs-dropdown {
+        border: 1px solid #dddddd;
+        border-radius: 5px;
+        overflow: hidden;
+        position: relative;
+    }
+    .nav-tabs.nav-tabs-dropdown::after,
+    .nav-tabs-dropdown::after {
+        content: "☰";
+        position: absolute;
+        top: 8px;
+        right: 15px;
+        z-index: 2;
+        pointer-events: none;
+    }
+    .nav-tabs.nav-tabs-dropdown.open a,
+    .nav-tabs-dropdown.open a {
+        position: relative;
+        display: block;
+    }
+    .nav-tabs.nav-tabs-dropdown.open > li.active > a,
+    .nav-tabs-dropdown.open > li.active > a {
+        background-color: #eeeeee;
+    }
+    .nav-tabs.nav-tabs-dropdown li,
+    .nav-tabs-dropdown li {
+        display: block;
+        padding: 0;
+        vertical-align: bottom;
+    }
+    .nav-tabs.nav-tabs-dropdown > li > a,
+    .nav-tabs-dropdown > li > a {
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        display: inline-block;
+        border-color: transparent;
+    }
+    .nav-tabs.nav-tabs-dropdown > li > a:focus,
+    .nav-tabs-dropdown > li > a:focus,
+    .nav-tabs.nav-tabs-dropdown > li > a:hover,
+    .nav-tabs-dropdown > li > a:hover,
+    .nav-tabs.nav-tabs-dropdown > li > a:active,
+    .nav-tabs-dropdown > li > a:active {
+        border-color: transparent;
+    }
+    .nav-tabs.nav-tabs-dropdown > li.active > a,
+    .nav-tabs-dropdown > li.active > a {
+        display: block;
+        border-color: transparent;
+        position: relative;
+        z-index: 1;
+        background: #fff;
+    }
+    .nav-tabs.nav-tabs-dropdown > li.active > a:focus,
+    .nav-tabs-dropdown > li.active > a:focus,
+    .nav-tabs.nav-tabs-dropdown > li.active > a:hover,
+    .nav-tabs-dropdown > li.active > a:hover,
+    .nav-tabs.nav-tabs-dropdown > li.active > a:active,
+    .nav-tabs-dropdown > li.active > a:active {
+        border-color: transparent;
+    }
+    }

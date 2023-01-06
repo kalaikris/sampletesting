@@ -1,0 +1,642 @@
+.time-table-container{
+  padding: 10px;
+    border-radius: 6px;
+    /* border: 1px solid #f2f1f1; */
+/*    max-width: 1368px;*/
+    /* margin: 32px auto; */
+    display: grid;
+    grid-column-gap: 10px;
+    grid-row-gap: 20px;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: 35px;
+    grid-auto-rows: 80px;
+    overflow: hidden;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+.timetable-cells{
+  border-radius: 5px;
+}
+.day-cell{
+  background-color: #f6f6f6;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    color: #000;
+    justify-content: center;
+}
+.period-cell-1{
+  background-color: #e4f2f5;
+}
+.period-cell-2{
+  background-color: #e4f5ed;
+}
+.period-cell-3{
+  background-color: #eef5e5;
+}
+.period-cell-4{
+  background-color: #f5e7e4;
+}
+.period-cell-5{
+  background-color: #e4e8f4;
+}
+.period-cell-6{
+  background-color: #e8e4f5;
+}
+.period-cell-7{
+  background-color: #f5e5f2;
+}
+.period-desc-cell{
+  display: flex;
+  align-items:flex-end;
+}
+.period-desc-cell p{
+  margin:0;
+  margin-bottom:4px;
+}
+.period-timing{
+  font-size:13px;
+  color:#6f829f;
+}
+.add_conts
+{
+text-align: center;
+}
+
+.period_text
+{
+  font: 18px/32px var(--medium-font);
+}
+.periods_subtext h4
+{
+  color: #355d66;
+    font: 16px/20px var(--medium-font);
+    
+}
+.status_texts h4
+{
+  color: #295842;
+}
+.status_texts2 h4
+{
+ color: #425a25;
+}
+.status_texts3 h4
+{
+ color: #8F332A;
+}
+.status_texts4 h4
+{
+ color: #344064;
+}
+/*.periods_subtext
+{
+  padding: 20px 30px;
+  width: 200px;
+  
+}*/
+.edit
+{
+  position: relative;
+}
+.edit img
+{
+  position: absolute;
+    right: 0px;
+    top: -5px;
+    cursor: pointer;
+}
+.periods_subtext p
+{
+  color: #494e4f;
+  font:14px/28px var(--regular-font);
+}
+.add_conts_img
+{
+    text-align: center;
+    width: 42px;
+    cursor: pointer;
+}
+img.add_conts_img
+{
+  position: absolute;
+    top: 10px;
+    left: 40%;
+}
+.mulite_content, .select2-container--default .select2-selection--multiple .select2-selection__choice {
+    margin-top: 0px !important;
+}
+
+
+.satart-cont1
+{
+  display: flex;
+/*    justify-content:center;*/
+    flex-wrap: wrap;
+    width: 68%;
+    margin: 0 auto;
+/*    padding: 30px;*/
+}
+
+.set_year h4
+{
+  font: 16px/28px var(--medium-font);
+    color: #617289;
+    text-align: left;
+}
+.set_year select {
+    color: #B2BBC8;
+    font: 16px/28px var(--regular-font);
+    font-weight: 400;
+    padding: 6px 10px;
+    width: 430px;
+    border-radius: 6px;
+    appearance: none;
+    background-position: calc(100% - 16px);
+    background-size: 12px;
+    background-image: url(../asset/img/down-arrow.png);
+    background-repeat: no-repeat;
+    cursor: pointer;
+     border-radius: 6px;
+    border: 1px solid #DCE3FF;
+}
+.Period_sub_status
+{
+  text-align: left;
+  padding-bottom: 20px;
+}
+.Period_sub_status h4
+{
+  color: #1b1f1b;
+  font: 16px/28px var(--medium-font);
+  font-weight: 700;
+}
+.Period_sub_status p
+{
+  color: #617389;
+  font: 16px/28px var(--regular-font);
+  font-weight: 500;
+}
+
+
+.period_timing_list
+{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.period_timing_start
+{
+  display: flex;
+    gap: 20px;
+    padding-top: 20px;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+
+}
+
+.set_timeing p
+{
+   font: 16px/28px var(--medium-font);
+    color: #617289;
+    text-align: left;
+}
+.set_timeing input
+{
+  font: 16px/32px var(--regular-font);
+    color: #1B1F1B;
+    font-weight: 400;
+    width: 200px;
+    padding: 6px 10px;
+     border-radius: 6px;
+    border: 1px solid #DCE3FF;
+}
+
+.name_period p
+{
+font: 16px/28px var(--medium-font);
+    color: #617289;
+    text-align: left;
+}
+
+.name_period input
+{
+  font: 16px/32px var(--regular-font);
+    color: #1B1F1B;
+    font-weight: 400;
+    width: 430px;
+    padding: 6px 10px;
+    border-radius: 6px;
+    border: 1px solid #DCE3FF;
+}
+
+
+.mulite_content, .select2-dropdown--below
+{
+width: 502px;
+}
+
+.mulite_content
+{
+    width: 100%;
+    font-size: 12px;
+    
+}
+.mulite_content, .select2-selection
+{
+    border: none;
+}
+
+
+.mulite_content, .select2-container--default .select2-selection--multiple
+
+{
+    appearance: none;
+    background-position: calc(100% - 16px);
+    background-size: 12px;
+    background-image: url(../asset/img/down-arrow.png);
+    background-repeat: no-repeat;
+    cursor: pointer;
+    width: 420px;
+}
+.mulite_content, .select2-container--default .select2-selection--multiple .select2-selection__choice
+{
+    margin-top: 10px;
+}
+
+
+.close_box
+{
+  margin-top: 30px;
+}
+
+/*div#DataTables_Table_0_filter {
+    position: relative;
+    left: -180px;
+   
+    top: -54px;
+}*/
+/*div#DataTables_Table_3_filter
+{
+    position: absolute;
+    left: 0px;
+    right: 10px;
+    top: -99px;
+}*/
+/*
+div#DataTables_Table_3_filter
+{
+    position: relative;
+    left: 0px;
+    right: 10px;
+    top: -39px;
+}
+.main_table #DataTables_Table_3_filter
+{
+   position: relative;
+    left: -220px;
+    right: -10px;
+    top: -53px;
+}
+div#DataTables_Table_4_filter
+{
+    position: relative;
+    left: -200px;
+
+    top: -46px;
+}
+div#DataTables_Table_1_filter
+{
+    position: relative;
+    left: -194px;
+
+    top: -54px;
+}
+div#DataTables_Table_2_filter
+{
+    position: relative;
+    left: -210px;
+    
+    top: -54px;
+}*/
+.timetable_btn
+{
+  background-color: #7A60E0;
+    color: #fff;
+    border-radius: 6px;
+    border: none;
+    font: 15px/28px var(--bold-font);
+    font-weight: 600;
+    padding: 6px 20px;
+    letter-spacing: 0.5px;
+}
+.set-time-tables {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.set-time-tables h4
+{
+    font: 36px/36px var(--bold-font);
+    font-weight: 300;
+    color: #1B1F1B;
+    line-height: 2;
+}
+.set-time-tables img
+{
+    width: 24px;
+    margin-right: 10px;
+    cursor: pointer;
+    object-fit: contain;
+}
+.select_contern p {
+    color: #617289;
+    font: 14px/30/ var(--medium-font);
+    font-weight: 500;
+}
+.select_contern select {
+    border: 1px solid #DCE3FF;
+    border-radius: 8px;
+    padding: 13px 20px;
+    width: 230px;
+    margin-top: 10px;
+    appearance: none;
+    background-position: calc(100% - 16px);
+    background-size: 14px;
+    background-image: url(../asset/img/down-arrow.png);
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.select_contern
+{
+  padding-top: 20px;
+}
+
+.title_cont {
+    /* text-align: center; */
+    padding: 8px 0px;
+    font-weight: 500;
+    font-size: 14px;
+    color: #000;
+}
+
+
+.satart-contts
+{
+  display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 94%;
+    margin: auto;
+    padding: 10px;
+}
+.set_yearss1 h4 {
+    font: 26px/28px var(--medium-font);
+    color: #617289;
+    text-align: center;
+}
+/*.border-bottoms
+{
+  border-bottom: 1px solid;
+}*/
+
+.timetable-container::-webkit-scrollbar {
+  width: 20px;
+  height: 10px;
+}
+
+/* Track */
+.timetable-container::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+.timetable-container::-webkit-scrollbar-thumb {
+  background: #7f63e3; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+.timetable-container::-webkit-scrollbar-thumb:hover {
+  background: #7f63e3; 
+}
+.timetable-container::-webkit-scrollbar {
+    display: block;
+}
+
+/*div#DataTables_Table_5_filter
+{
+  position: relative;
+    left: 0%;
+}*/
+.select2-container
+{
+  width: 480px;
+}
+.multiple_cont .select2-container--default .select2-selection--multiple
+{
+  width: 466px;
+   height: 46px;
+}
+
+
+
+
+
+/*.......ysdjk,,,,*/
+
+.timetable-container {
+  position: relative;
+  padding: 24px 16px;
+  padding-left: 0;
+ 
+  overflow-x:auto;
+}
+
+.timetable-container > * {
+  display: flex;
+  column-gap: 12px;
+}
+
+.tt-cells > * {
+  flex: 1;
+  padding: 10px 19px;
+  border-radius: 5px;
+}
+
+.tt-cells > div:first-child {
+  min-width: 190px;
+  position: sticky;
+  left: 0;
+  z-index: 1;
+  background-color: #fff;
+  padding-left: 16px;
+}
+
+.days {
+  margin-bottom: 16px;
+}
+
+.days span {
+  display: inline-block;
+  background-color: #f6f6f6;
+  text-align: center;
+  font-weight: 600;
+  min-width: 100px;
+  font: 14px/28px var(--medium-font);
+  color: #000001;
+}
+
+.periods:not(:last-child) {
+  padding-bottom: 16px;
+  margin-bottom: 16px;
+  border-bottom: 2px dashed #E9E9E9;
+}
+
+.period__desc p{
+  margin: 0;
+}
+
+.period__desc p:first-child{
+/*  margin-bottom: 4px;*/
+  font-weight: 600;
+  font: 18px/26px var(--regular-font);
+  color: #000001;
+}
+
+.period__desc .period__timing{
+  color: #6F829F;
+  font-size: 13px;
+  font: 14px/28px var(--regular-font);
+}
+.period__details {
+  min-width: 100px;
+}
+.period__details .period__name {
+  /*font-size: 15px;
+  font-weight:600;*/
+/*  margin-bottom: 4px;*/
+padding-top: 8px;
+}
+
+.period__details .period__staff {
+  color: #494e4f;
+    font: 14px/28px var(--regular-font);
+}
+
+.period__day-1 {
+  background-color: #E4F2F5;
+  color:#355D65;
+}
+.period__day-1 p
+{
+  color: #355d66;
+    font: 16px/20px var(--medium-font);
+}
+.period__day-2 {
+  background-color: #E4F5ED;
+  color: #295842;
+}
+.period__day-2  p
+{
+  color: #295842;
+    font: 16px/20px var(--medium-font);
+}
+.period__day-3 {
+  background-color: #EEF5E5;
+  color: #425925;
+}
+.period__day-3 p
+{
+  color: #425a25;
+    font: 16px/20px var(--medium-font);
+}
+.period__day-4 {
+  background-color: #F5E7E4;
+  color: #8F331F;
+}
+.period__day-4 p
+{
+  color: #8F331F;
+    font: 16px/20px var(--medium-font);
+}
+.period__day-5 {
+  background-color: #E4E8F4;
+  color: #344064;
+}
+.period__day-5 p
+{
+    color: #344064;
+    font: 16px/20px var(--medium-font);
+}
+.period__day-6 {
+  background-color: #E8E4F5;
+  color: #4C3987;
+}
+.period__day-6 p
+{
+    color: #4C3987;
+    font: 16px/20px var(--medium-font);
+}
+
+.period__day-7 {
+  background-color: #F5E5F2;
+  color:#7A366E;
+}.period__day-7 p
+{
+ color: #7A366E;
+    font: 16px/20px var(--medium-font);
+}
+
+.period__break {
+  background-color: #F5F5F5;
+  flex: 8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  left: 152px;
+}
+
+
+
+
+
+@media only screen and (max-width:1758px)
+{
+  .tt-cells > div:first-child
+  {
+    min-width: 200px;
+  }
+}
+
+@media only screen and (max-width:1556px)
+{
+   .days span
+   {
+    min-width: 180px;
+   }
+   .period__details {
+    min-width: 180px;
+}
+.periods:not(:last-child)
+{
+  min-width: 1550px;
+}
+}
+
+@media only screen and (max-width:1441px)
+{
+ /* .time-table-container
+  {
+    grid-template-columns: repeat(4, 2fr);
+  }*/
+  .day-cell
+  {
+    height: 50px;
+  }
+}

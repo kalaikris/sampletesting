@@ -1,0 +1,62 @@
+.date-field{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+}
+
+.selecttext {
+    border-radius: 8px;
+    border: 1px solid #dce3ff;
+    opacity: 1;
+    font: 16px/24px var(--regular-font);
+    width: 200px;
+}
+.input-date {
+    font: 16px/24px var(--regular-font);
+}
+.date-fields{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.back-out {
+    margin-top: 0 !important;
+}
+
+.no-border {
+    border: none !important;
+    padding: 0;
+
+}
+
+textarea.form-control {
+    height: auto !important;
+}
+.pending_view{
+    background: #F4F3D1;
+    width: 100px;
+    padding: 10px;
+    border-radius: 4px;
+    font: 12px/16px var(--bold-font);
+    color: #83801A;
+}
+.approve_view{
+    background: #D1F4EC;
+    width: 100px;
+    padding: 10px;
+    border-radius: 4px;
+    font: 12px/16px var(--bold-font);
+    color: #279F84;
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,32 @@
+.chat-addbtn {
+    background-color: #7A60E0;
+    border: 1px solid #7A60E0;
+    border-radius: 8px;
+    color: #fff;
+    font: 15px/21px var(--bold-font);
+    padding: 10px 15px;
+}
+.table_split{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 0 10px;
+}
+.chat-addbtn span img {
+    width: 30px;
+    height: 20px;
+    object-fit: contain;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

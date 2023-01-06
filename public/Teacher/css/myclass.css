@@ -1,0 +1,12 @@
+#main_section{
+    display:block;
+}
+#unit_section{
+    display:none;
+}
+.main_view p span img{
+    width: 30px;
+    height: 20px;
+    object-fit: contain;
+}
+

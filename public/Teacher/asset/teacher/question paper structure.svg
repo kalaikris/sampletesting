@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>question paper structure</title>
+    <g id="question-paper-structure" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="9024838_tree_structure_light_icon">
+            <rect id="Rectangle" x="0" y="0" width="22" height="22"></rect>
+            <rect id="Rectangle" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" x="2.0625" y="8.59375" width="4.8125" height="4.8125" rx="0.68875"></rect>
+            <rect id="Rectangle" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" x="13.75" y="3.4375" width="5.5" height="5.5" rx="0.68875"></rect>
+            <rect id="Rectangle" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" x="13.75" y="13.0625" width="5.5" height="5.5" rx="0.68875"></rect>
+            <line x1="6.875" y1="11.0070313" x2="10.3125" y2="11.0070313" id="Path" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"></line>
+            <path d="M13.75,15.8125181 L12.375,15.8125181 C11.8272902,15.8147965 11.3013499,15.5982356 10.9140572,15.2109428 C10.5267644,14.8236501 10.3102035,14.2977098 10.3124819,13.75 L10.3124819,8.25 C10.3102035,7.7022902 10.5267644,7.17634988 10.9140572,6.78905716 C11.3013499,6.40176444 11.8272902,6.18520349 12.375,6.18748192 L13.75,6.18748192" id="Path" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"></path>
+        </g>
+    </g>
+</svg>

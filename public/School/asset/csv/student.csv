@@ -1,0 +1,3 @@
+S.No,Student Id,Name,Email,Country Code,Mobile Number,Address,Gender,Dob,Blood group,Nationality,Religion,Father name,Father mobile number,Father email id,Mother name,Mother mobile,Mother email id,Standard,Section,Class id
+1,S12345,Muthu,muthu@gmail.com,91,9999955555,Muthu Address,Male,1-1-90,O+,Indian,Hindu,Tamilarasu,9999944444,tamil@gmail.com,Selvi,9999911111,selvi@gmail.com,Class 6,A,CL0001
+2,H12345,Angel,angel@gmail.com,91,9999955556,Angel Address,Female,1-1-70,O+,Indian,Christian,John,9999944443,john@gmail.com,Victoria,9999911112,vict@gmail.com,Class 6,B,CL0002
